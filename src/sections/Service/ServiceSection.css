@@ -1,0 +1,30 @@
+.services {
+  background-color: #ffffff;
+  padding: 3rem 2rem;
+}
+
+.services h2 {
+  font-size: 2rem;
+  color: #0077cc;
+  margin-bottom: 2rem;
+}
+
+.service-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 1.5rem;
+}
+.service-card:hover {
+  color: #ffffff;
+  background: #4568dc; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #b06ab3, #4568dc);
+  background: linear-gradient(to right, #b06ab3, #4568dc);
+}
+.service-card {
+  background-color: #e3f2fd;
+  padding: 1.5rem;
+  border-radius: 10px;
+  text-align: center;
+  font-weight: bold;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}

@@ -1,0 +1,26 @@
+body {
+  margin: 5px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  scroll-behavior: smooth;
+  background-color: #f4f4f4;
+  
+  color: #333;
+}
+
+section {
+  padding: 60px 20px;
+  text-align: center;
+}
+
+a {
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: #005fa3;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}

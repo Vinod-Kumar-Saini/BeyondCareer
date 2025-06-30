@@ -1,0 +1,67 @@
+.footer {
+  /* background-color: #0e0d0d; */
+  background: #2980b9; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #2c3e50,
+    #2980b9
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #2c3e50,
+    #2980b9
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  color: #fff;
+  padding: 40px 20px 20px;
+  text-align: center;
+}
+
+.footer-container {
+  max-width: 1200px;
+  margin: auto;
+}
+
+.footer-logo {
+  font-size: 1.8rem;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.footer-links,
+.footer-socials {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 15px;
+  margin-bottom: 15px;
+}
+
+.footer-links a,
+.footer-socials a {
+  color: #ccc;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.footer-links a:hover,
+.footer-socials a:hover {
+  color: #fff;
+  font-weight: 800;
+}
+
+.footer-bottom {
+  font-size: 0.85rem;
+  color: #ffffff;
+  margin-top: 20px;
+  border-top: 1px solid #333;
+  padding-top: 10px;
+}
+
+@media (max-width: 768px) {
+  .footer-links,
+  .footer-socials {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

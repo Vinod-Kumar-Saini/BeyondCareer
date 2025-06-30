@@ -1,0 +1,15 @@
+😊Design Rationale Document 
+
+The design emphasizes clarity and modern appeal. A vibrant purple (#6444ef) conveys creativity and trust. Sans-serif typography ensures readability. Navigation is responsive with a hamburger menu for mobile. The theme switcher enhances accessibility. Layout choices prioritize ease of access to core content, improving user experience and engagement across all devices.
+
+
+
+😊Technical Documentation 
+
+Built with React for dynamic rendering, CSS for styling, and localStorage for theme persistence. Challenges included responsive design and theme toggling—solved via conditional classes. Optimized with lazy loading and minimal re-renders.
+
+
+
+😊Deployment Guide 
+
+Deployed using Vercel for fast global delivery. Steps: push to GitHub → connect to Vercel → deploy. Final URL tested and verified responsive.
