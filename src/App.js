@@ -8,6 +8,8 @@ import HeroSection from './sections/Hero/HeroSection';
 import ServicesSection from './sections/Service/ServiceSection';
 import TestimonialSection from './sections/TestimonialsSection/TestimonialSection';
 
+import { Analytics } from "@vercel/analytics/react"
+
 function App() {
   return (
     <div className="App">
@@ -18,6 +20,7 @@ function App() {
       <TestimonialSection/>
       <ContactSection/>
       <Footer/>
+      <Analytics/>
     </div>
   );
 }
